@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Standard orientation constant. -->
+    <attr name="orientation">
+
+        <!-- Defines an horizontal widget. -->
+        <enum name="horizontal" value="0" />
+        <!-- Defines a vertical widget. -->
+        <enum name="vertical" value="1" />
+    </attr>
+    <!-- Maps a specific contact data MIME-type to styling information. -->
+    <declare-styleable name="ContactsDataKind">
+
+        <!-- Mime-type handled by this mapping. -->
+        <attr name="mimeType" format="string" />
+        <!-- Icon used to represent data of this kind. -->
+
+
+        <!-- Column in data table that summarizes this data. -->
+        <attr name="summaryColumn" format="string" />
+        <!-- Column in data table that contains details for this data. -->
+        <attr name="detailColumn" format="string" />
+        <!-- Flag indicating that detail should be built from SocialProvider. -->
+        <attr name="detailSocialSummary" format="boolean" />
+    </declare-styleable>
+
+    <!-- =============================== -->
+    <!-- TabSelector class attributes -->
+    <!-- =============================== -->
+    <eat-comment />
+
+    <declare-styleable name="SlidingTab">
+
+        <!-- Use "horizontal" for a row, "vertical" for a column.  The default is horizontal. -->
+        <attr name="orientation" />
+    </declare-styleable>
+    <declare-styleable name="TextImageButton">
+        <attr name="textImageColor" format="color" />
+        <attr name="textImageSize" format="dimension" />
+        <attr name="textImageText" format="string" />
+        <attr name="textImageWidth" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ButtonGrid">
+        <attr name="gap" format="dimension" />
+        <attr name="column" format="integer" />
+        <attr name="row" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="Testlala">
+        <attr name="rootview" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TextMoreView">
+        <attr name="desc" format="string" />
+        <attr name="image" format="reference"></attr>
+    </declare-styleable>
+    <declare-styleable name="EasyGridView">
+        <attr name="imagewidth" format="dimension" />
+        <attr name="imageheight" format="dimension" />
+        <attr name="columncount" format="integer" />
+    </declare-styleable>
+
+</resources>

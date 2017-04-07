@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <include
+        android:id="@+id/title_bar_normal_mode"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_bar_h"
+        android:layout_gravity="center_vertical"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:id="@+id/keybord_container"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/title_bar_normal_mode"
+        android:background="#ccc"
+        android:minHeight="30dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_base"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="160"
+            android:background="@drawable/tablebar_bg_down"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="基本属性"
+            android:textColor="#7b8483"
+            android:textSize="18.0sp" />
+
+        <Button
+            android:id="@+id/btn_fix"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="160"
+            android:background="@drawable/tablebar_bg"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="定制属性"
+            android:textColor="#7b8483"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        layout="@layout/bottom_scan" />
+
+    <Button
+        android:id="@+id/btn_edit_save"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_above="@id/bottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_normal_selector"
+        android:duplicateParentState="true"
+        android:gravity="center"
+        android:text="保存"
+        android:textColor="@color/white"
+        android:textSize="14.0sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/bottom"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn_normal_selector"
+        android:gravity="center"
+        android:text="资产保存"
+        android:textColor="@color/white"
+        android:textSize="14.0sp" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/bottom"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_normal_selector"
+        android:gravity="center"
+        android:text="清屏"
+        android:textColor="@color/white"
+        android:textSize="14.0sp" />
+
+    <Button
+        android:id="@+id/btn_save_copy"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@id/bottom"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/btn_clear"
+        android:layout_toRightOf="@id/btn_save"
+        android:background="@drawable/btn_normal_selector"
+        android:gravity="center"
+        android:text="保存并录入相同资产"
+        android:textColor="@color/white"
+        android:textSize="14.0sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_save_copy"
+        android:layout_below="@id/keybord_container"
+        android:layout_marginBottom="10dp" >
+
+        <ListView
+            android:id="@+id/baselist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@null"
+            android:fadingEdge="none"
+            android:listSelector="@null"
+            android:overScrollMode="never" />
+
+        <ListView
+            android:id="@+id/fixlist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@null"
+            android:fadingEdge="none"
+            android:listSelector="@null"
+            android:overScrollMode="never" />
+    </FrameLayout>
+
+</RelativeLayout>

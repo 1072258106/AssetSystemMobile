@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- general values -->
+    
+    <dimen name="search_contact_item_padding">5dp</dimen>
+    <dimen name="edit_photo_size">48dip</dimen>
+
+    <!-- The height of the ScrollingTabWidget -->
+    <dimen name="tab_height">40dip</dimen>
+
+    <!-- Dimens for dialog contacts data list items -->
+    <dimen name="dialog_contacts_data_list_item_label_margin_bottom">4dp</dimen>
+
+    <!-- item_contact_editor.xml -->
+    <dimen name="item_contact_editor_add_field_set_padding_left">6dp</dimen>
+    <dimen name="item_contact_editor_add_field_set_padding_right">6dp</dimen>
+    <dimen name="item_contact_editor_add_field_set_padding_top">3dp</dimen>
+    <dimen name="item_contact_editor_add_field_margin_right">8dp</dimen>
+    
+    <dimen name="btn_add_contact_font_size">42dp</dimen>
+    <dimen name="btn_setting_font_size">42dp</dimen>
+    
+    
+    <dimen name="container_mingpian_height">320dp</dimen>
+    <dimen name="gif_height">24dp</dimen>
+    <dimen name="gif_width">180dp</dimen>
+    
+    <dimen name="gif_margin_top">-10dp</dimen>
+    <dimen name="title_margin_top">-23dp</dimen>
+</resources>

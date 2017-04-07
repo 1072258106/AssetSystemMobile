@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">资产管理系统</string>
+    <string name="contacts">团队</string>
+    <string name="group">聊天</string>
+    <string name="recent">最近通话</string>
+    <string name="event">事件</string>
+    <string name="aboutme">我</string>
+    <string name="activity_not_found">activity not found</string>
+    <string name="ok">"确定"</string>
+    <string name="cancel">"取消"</string>
+    <string name="err_acc_sensor">"传感器不正常，左右键盘切换可能有问题！"</string>
+    <string name="validate_second_privacy_agreement">"同意相关的服务条款后才能使用此业务"</string>
+    <string name="create_circle">创建电话圈</string>
+    <string name="create_yellowpage">创建黄页</string>
+    <string name="subscribe_group">订阅黄页</string>
+    <string name="phone_desc">+</string>
+    <string name="phone_country">86</string>
+    <string name="input_password">输入密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="register_page">注册团队</string>
+    <string name="phone_number">手机号码</string>
+    <string name="get_active_code">"获取验证码"</string>
+    <string name="set_action_code">"输入验证码"</string>
+    <string name="passwd">密码(六位以上数字或字母)</string>
+    <string name="label_privacy_agreement">"我已阅读并同意\"使用条款和隐私政策\""</string>
+    <string name="no_account">没有账号/</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="get_active_code_wait">"请等待倒计时"</string>
+    <string name="active_failure_no_network">"请求失败，可能是没有网络"</string>
+    <string name="get_verify_code_failure">"您的操作过于频繁，请24小时后再试"</string>
+    <string name="network_server_error">"网络服务器返回错误"</string>
+    <string name="active_code_error">"验证码错误"</string>
+    <string name="active_code_empty">"请输入验证码"</string>
+    <string name="validate_country_code">"国家代码为必填项"</string>
+    <string name="validate_phone_num">"电话号码为必填项"</string>
+    <string name="validate_china_phone_num">"请输入合法的电话号码"</string>
+    <string name="validate_passwd">"密码长度最小需要6位"</string>
+    <string name="validate_privacy_agreement">"同意相关的服务条款后才能使用云功能"</string>
+    <string name="active_tongxingzheng_tv1">请您确认完全阅读并同意</string>
+    <string name="active_tongxingzheng_tv2">\"使用条款和隐私政策\"</string>
+    <string name="active_read_agreement">再读一遍</string>
+    <string name="active">"启用"</string>
+    <string name="alert_title">验证码短信已发送</string>
+    <string name="alert_message">根据不同的地区可能会等待数秒至数分钟，收到后请填写在验证码一栏，然后点击“启用”。\n
+        在一个小时内填写验证码均有效</string>
+    <string name="active_success">"成功启用"</string>
+    <string name="active_failure">"启用失败"</string>
+    <string name="title_bar_list_name">"〈 "<xliff:g id="list_name">%s</xliff:g></string>
+    <string name="pass_word">"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRETUVWXYZ"</string>
+    <string name="login_success">"登录成功"</string>
+    <string name="login_failure">"登录失败"</string>
+    <string name="illegal_name_or_passwd">"用户名或密码错误"</string>
+    <string name="get_again">"请重新获取验证码"</string>
+    <string name="modify_passwd">"修改密码"</string>
+    <string name="modify_passwd_error">"原始密码错误"</string>
+    <string name="modify_passwd_success">"修改密码成功"</string>
+    <string name="modify_passwd_fail">"修改密码失败"</string>
+    <string name="register_notice">以上信息将会出现在你的个人名片中</string>
+    <string name="exit_group_confirm">"确定退出 "<xliff:g id="group_name">%s</xliff:g>" 吗？"</string>
+    <string name="remove_group_confirm">"确定解散 "<xliff:g id="group_name">%s</xliff:g>" 吗？"</string>
+    <string name="label_btn_ok">确认</string>
+    <string name="label_btn_delete">删除</string>
+    <string name="exit_group_error">"退出团队失败"</string>
+    <string name="exit_group_ok">"退出团队成功"</string>
+    <string name="clear">"清空"</string>
+    <string name="call_count">"(<xliff:g id="callCount">%s</xliff:g>)"</string>
+    <string name="cloud_contact_count">        "结果："<xliff:g id="search_count">%d</xliff:g>        "/"<xliff:g id="total_count">%d</xliff:g>"个"</string>
+    <string name="for_more">"点击此处显示更多…"</string>
+    <string name="removeskin">卸载皮肤</string>
+    <string name="removeskinask">是否卸载皮肤a？</string>
+    <string name="footer_view_match">精确到：<xliff:g id="match">%s</xliff:g>        位\n</string>
+    <string name="footer_view_search">查询字：<xliff:g id="text">%s</xliff:g></string>
+    <string name="localmsg_twosims">"有双卡插件需要安装"</string>
+    <string name="no_browser">"没有安装浏览器"</string>
+    <string name="roaming_call_back_cm_code">"**139*<xliff:g id="number">%s</xliff:g>#"</string>
+    <string name="roaming_call_back_ct_code">"**133*<xliff:g id="number">%s</xliff:g>#"</string>
+    <string name="roaming_call_back_cu_code">"**100*<xliff:g id="number">%s</xliff:g>#"</string>
+    <string name="tv_contact_detail">联系人详情</string>
+    <string name="share">分享</string>
+    <string name="chat">免费聊天</string>
+    <string name="shake_to_dail">摇一摇拨出</string>
+    <string name="edit">编辑</string>
+    <string name="add_to_blacklist">加入黑名单</string>
+    <string name="delet_contact">删除联系人</string>
+    <string name="delet_contacts">批量删除联系人</string>
+    <string name="add_chat_group_contacts">添加小组成员</string>
+    <string name="add_group_contact">添加管理员</string>
+    <string name="add_event_receiver">选择收件人</string>
+    <string name="demo_name_overlay">覆盖物功能</string>
+    <!-- iphone dialog -->
+    <string name="dialog_label_dial_none">此人没有号码</string>
+    <string name="dialog_label_dial_note">请输入至少3位号码</string>
+    <string name="dialog_label_dial_btn">重新输入</string>
+    <string name="unknown">"无名称"</string>
+    <string name="no_number">"无号码"</string>
+    <string name="order_by_name_string">按姓名顺序</string>
+    <string name="order_by_frequency_string">按联系频率</string>
+    <string name="guhua_call">固话拨打</string>
+    <string name="normal_call">"固话拨打"</string>
+    <string name="ip_call">"IP拨打"</string>
+    <string name="dx_call">"固话拨打"</string>
+    <string name="sc_call">"副号拨打"</string>
+    <string name="non_group">无分组</string>
+    <string name="moren">默认铃声</string>
+    <string name="local_contact">本地通讯录</string>
+    <string name="allcontacts_displayname">"全部联系人"</string>
+    <string name="nogroup_displayname">未分组</string>
+    <string name="human_count">"(<xliff:g id="count">%s</xliff:g>)"</string>
+    <string name="pop_copy">通讯录备份</string>
+    <string name="pop_card">名片批量传送</string>
+    <string name="pop_delete">名片批量删除</string>
+    <string name="pop_cancal">取消</string>
+    <string name="create_number_group">创建团队</string>
+    <string name="manage_number_group">管理团队</string>
+    <string name="number_group_detail">团队详情</string>
+    <string name="label_settting_comlete">完成</string>
+    <string name="select_all">全选</string>
+    <string name="batch_operation_sendsms_sendlabel">完成</string>
+    <string name="mainactivity_btn_send">完成</string>
+    <string name="batch_operation_upload">添加</string>
+    <string name="invite">"邀请"</string>
+    <string name="batch_operation_del">"删除(<xliff:g id="versionName">%s</xliff:g>)"</string>
+    <string name="little_mind">“私有/共享”类型在创建后将不可再修改，请再次确定设置好了</string>
+    <string name="share_text">温馨提示:\n1、为避免群重名，建议设计有特征的群名称，比如：××学校××班同学录\n2、此号码群为共享群，群内成员或通过密码验证者加入共享群后，实现相互沟通</string>
+    <string name="simcard_not_inserted">无 SIM 卡</string>
+    <string name="add_contactlist_title">"联系人正在导入团队,请稍…"</string>
+    <string name="batching_none_select">没有选择联系人</string>
+    <string name="add_group">"添加群组"</string>
+    <string name="addcontact_success">"联系人添加完成"</string>
+    <string name="addcontact_fail">"联系人添加出错"</string>
+    <string name="notice">"提示"</string>
+    <string name="batch_operation_complete">完成</string>
+    <string name="batch_operation_delete">删除</string>
+    <string name="batch_operation_send">发送</string>
+    <string name="incall_2_sms_prefix">"(拨号精灵提示:对方现在可能不方便接电话，建议发短信)"</string>
+    <string name="msg_center_block_user">"拦截了<xliff:g id="name">%s</xliff:g>的来电"</string>
+    <string name="user_actived_info">"<xliff:g id="name">%s</xliff:g>        启用了团队"</string>
+    <string name="unknown_name">"无名氏"</string>
+    <string name="namecard_change_info">"<xliff:g id="name">%s</xliff:g>        更新了联系信息"</string>
+    <string name="end_call_text">停止重复拨打</string>
+    <string name="touch_me_to_move">点此拖动窗体</string>
+    <string name="moveout_from_blacklist">移出黑名单</string>
+    <string name="move_to_blacklist">加入黑名单</string>
+    <string name="select_delete_type">请选择要删除的类型</string>
+    <string name="dialog_label_confirm_note">确认删除</string>
+    <string name="delete_contact">        "联系人："<xliff:g id="contact_name">%s</xliff:g>        "\n\n警告：删除后只能重新从本地添加才能恢复，建议使用“团队”先做好本地数据的备份。"</string>
+    <string name="delete_one_contact">        "是否要删除联系人："<xliff:g id="contact_name">%s</xliff:g></string>
+    <string name="label_group_name_spinner">"<xliff:g id="group">%s</xliff:g>▼"</string>
+    <string name="remove_contact_success">"联系人删除成功"</string>
+    <string name="remove_contact_fail">"联系人删除失败"</string>
+
+    <!-- SendCardActivity -->
+    <string name="gps_warning">您的GPS已关闭</string>
+    <string name="turn_on_gps">是否开启GPS？</string>
+    <string name="editContact_title_edit">编辑联系人</string>
+    <string name="account_phone">手机联系人</string>
+    <string name="postal_street">街道</string>
+    <string name="postal_pobox">信箱</string>
+    <string name="postal_neighborhood">区域</string>
+    <string name="postal_city">城市</string>
+    <string name="postal_region">省份</string>
+    <string name="postal_postcode">邮政编码</string>
+    <string name="postal_country">国家/地区</string>
+    <string name="name_given">名字</string>
+    <string name="name_family">姓氏</string>
+    <string name="name_prefix">名称前缀</string>
+    <string name="name_middle">中间名</string>
+    <string name="name_suffix">名称后缀</string>
+    <string name="name_phonetic_given">名字拼音</string>
+    <string name="name_phonetic_family">姓氏拼音</string>
+    <string name="nicknameLabelsGroup">昵称</string>
+    <string name="organizationLabelsGroup">组织</string>
+    <string name="websiteLabelsGroup">网站</string>
+    <string name="eventLabelsGroup">活动</string>
+    <string name="phoneLabelsGroup">电话</string>
+    <string name="emailLabelsGroup">电子邮件</string>
+    <string name="imLabelsGroup">即时消息</string>
+    <string name="postalLabelsGroup">邮政地址</string>
+    <string name="otherLabelsGroup">其他</string>
+    <string name="ghostData_company">公司</string>
+    <string name="ghostData_title">职位</string>
+    <string name="label_notes">备注</string>
+    <string name="label_ringtone">铃声</string>
+    <string name="call_custom">呼叫<xliff:g id="custom">%s</xliff:g></string>
+    <string name="call_home">呼叫住宅电话</string>
+    <string name="call_mobile">呼叫手机</string>
+    <string name="call_work">呼叫单位</string>
+    <string name="call_fax_work">呼叫单位传真</string>
+    <string name="call_fax_home">呼叫住宅传真</string>
+    <string name="call_pager">呼叫寻呼机</string>
+    <string name="call_other">呼叫其他号码</string>
+    <string name="call_callback">呼叫回拨号码</string>
+    <string name="call_car">呼叫车载电话</string>
+    <string name="call_company_main">呼叫公司总机</string>
+    <string name="call_isdn">呼叫ISDN</string>
+    <string name="call_main">呼叫总机</string>
+    <string name="call_other_fax">呼叫其他传真</string>
+    <string name="call_radio">呼叫无线装置</string>
+    <string name="call_telex">呼叫电报</string>
+    <string name="call_tty_tdd">呼叫文字电话</string>
+    <string name="call_work_mobile">呼叫单位手机</string>
+    <string name="call_work_pager">呼叫单位寻呼机</string>
+    <string name="call_assistant">呼叫<xliff:g id="assistant">%s</xliff:g></string>
+    <string name="call_mms">呼叫彩信号码</string>
+    <string name="sms_custom">向<xliff:g id="custom">%s</xliff:g>        发送文本消息</string>
+    <string name="sms_home">向住宅电话发送短信</string>
+    <string name="sms_mobile">向手机发送短信</string>
+    <string name="sms_work">向单位电话发送短信</string>
+    <string name="sms_fax_work">向单位传真机发送短信</string>
+    <string name="sms_fax_home">向住宅传真机发送短信</string>
+    <string name="sms_pager">向寻呼机发送短信</string>
+    <string name="sms_other">向其他手机发送短信</string>
+    <string name="sms_callback">向回拨号码发送短信</string>
+    <string name="sms_car">向车载电话发送短信</string>
+    <string name="sms_company_main">向公司总机发送短信</string>
+    <string name="sms_isdn">向ISDN发送短信</string>
+    <string name="sms_main">向总机发送短信</string>
+    <string name="sms_other_fax">向其他传真发送短信</string>
+    <string name="sms_radio">向无线装置发送短信</string>
+    <string name="sms_telex">向电报发送短信</string>
+    <string name="sms_tty_tdd">文本文字电话</string>
+    <string name="sms_work_mobile">向单位手机发送短信</string>
+    <string name="sms_work_pager">向单位寻呼机发送短信</string>
+    <string name="sms_assistant">文本<xliff:g id="assistant">%s</xliff:g></string>
+    <string name="sms_mms">向彩信号码发送短信</string>
+    <string name="email_home">向住宅邮箱发送电子邮件</string>
+    <string name="email_mobile">向手机发送电子邮件</string>
+    <string name="email_work">向单位邮箱发送电子邮件</string>
+    <string name="email_other">向其他邮箱发送电子邮件</string>
+    <string name="email_custom">向<xliff:g id="custom">%s</xliff:g>        发送电子邮件</string>
+    <string name="email">电子邮件</string>
+    <string name="map_home">查看住宅地址</string>
+    <string name="map_work">查看单位地址</string>
+    <string name="map_other">查看其他地址</string>
+    <string name="map_custom">查看<xliff:g id="custom">%s</xliff:g>        地址</string>
+    <string name="chat_aim">使用AIM聊天</string>
+    <string name="chat_msn">使用Windows Live聊天</string>
+    <string name="chat_yahoo">使用雅虎软件聊天</string>
+    <string name="chat_skype">使用Skype聊天</string>
+    <string name="chat_qq">使用QQ聊天</string>
+    <string name="chat_gtalk">使用Google Talk聊天</string>
+    <string name="chat_icq">使用ICQ聊天</string>
+    <string name="chat_jabber">使用Jabber聊天</string>
+    <string name="nameLabelsGroup">名称</string>
+    <string name="deleteConfirmation_title">删除</string>
+    <string name="deleteConfirmation">将删除联系人。</string>
+    <string name="readOnlyContactWarning">您无法删除只读帐户中的联系人，但是可以在联系人列表中隐藏这些帐户。</string>
+    <string name="readOnlyContactDeleteConfirmation">此联系人包含来自多个帐户的信息。无法删除来自只读帐户的信息。</string>
+    <string name="multipleContactDeleteConfirmation">此联系人包含来自多个帐户的信息，将被删除。</string>
+    <string name="spb_strings_edit_add_field_txt">添加字段</string>
+    <string name="use_photo_as_primary">设置为联系人图片</string>
+    <string name="changePicture">编辑</string>
+    <string name="removePicture">删除图片</string>
+    <string name="attachToContact">联系人图片</string>
+    <string name="default_ringtone">默认</string>
+    <string name="savingContact">正在保存联系人</string>
+    <string name="contactSavedToast">联系人已保存</string>
+    <string name="contactSavedErrorToast">错误。无法保存联系人更改。</string>
+    <string name="take_photo" msgid="7496128293167402354">"拍照"</string>
+    <string name="pick_photo" msgid="448886509158039462">"从图库中选择照片"</string>
+    <string name="photoPickerNotFoundText">手机中无可用的图片</string>
+    <string name="splitConfirmation_title">分离联系人</string>
+    <string name="splitConfirmation">已合并的联系人将分离为多个联系人</string>
+    <string name="dialog_new_contact_account">在帐户下创建联系人</string>
+    <string name="editContactDescription">编辑联系人</string>
+    <string name="insertContactDescription">创建联系人</string>
+    <string name="selectLabel">选择字段</string>
+    <string name="customLabelPickerTitle">自定义字段名称</string>
+    <string name="reset_psw">修改密码</string>
+    <string name="old_psw">原密码</string>
+    <string name="new_psw">新密码</string>
+    <string name="input_old_psw">请输入原密码</string>
+    <string name="input_new_psw">请输入6位或6位以上新密码</string>
+    <string name="chat_member_count">"("<xliff:g id="count">%s</xliff:g>        "人)"</string>
+
+    <!-- MyStatus -->
+    <string name="btn_back">"返回"</string>
+    <string name="mystatus">"我的状态"</string>
+    <string name="set_success">"设置成功"</string>
+    <string name="get_status_error">"获取状态失败"</string>
+    <string name="update_status_error">"发布微博失败"</string>
+    <string name="create_friendship_error">"关注失败"</string>
+    <string name="network_req_timeout">"网络请求超时"</string>
+    <string name="string_state_text1">"空闲状态，欢迎来电。"</string>
+    <string name="string_state_text2">"忙碌中，请尽量短信联系。"</string>
+    <string name="string_state_text3">"开会中，有事请发短信。"</string>
+    <string name="string_state_text4">"休息中，请勿打扰。"</string>
+    <string name="no_disturb">"免打扰"</string>
+    <string name="no_disturb_text">"开启时对方来电将被挂断"</string>
+    <string name="state_text">"状态"</string>
+    <string name="emergency_mode">"紧急模式"</string>
+    <string name="emergency_mode_desc">"三分钟内连续来电两次，则可接通"</string>
+    <string name="time_period_title">"开启的时间范围"</string>
+    <string name="time_start">"开始时间"</string>
+    <string name="time_start_with_time">"开始时间\n<xliff:g id="time">%s</xliff:g>"</string>
+    <string name="time_stop">"结束时间"</string>
+    <string name="time_stop_with_time">"结束时间\n<xliff:g id="time">%s</xliff:g>"</string>
+    <string name="vip_group_title">"允许这些人的来电"</string>
+    <string name="vip_group_desc">"没人"</string>
+    <string name="vip_group_every">"任何人的来电都不会被挂断"</string>
+    <string name="vip_group_block_all">"任何人的来电都会被挂断"</string>
+    <string name="vip_group_not_block_all">"%s的来电不会被挂断"</string>
+    <string name="incoming_call_2_sms_desc">"挂断来电并以短信形式回复"</string>
+    <string name="use_status_sms">"挂断电话后使用以下状态以短信回复"</string>
+    <string name="renren_net">"人人网"</string>
+    <string name="weibo">"新浪微博"</string>
+    <string name="tx_weibo">腾讯微博</string>
+    <string name="more_status">"更多状态"</string>
+    <string name="unbond">"(尚未绑定)"</string>
+    <string name="bonded">"(已绑定)"</string>
+    <string name="state_add">添加新状态</string>
+    <string name="state_cannot_empty">"状态不能为空"</string>
+    <string name="sure_delete">确认删除状态么？</string>
+    <string name="string_state_confirm">"确认修改么？"</string>
+    <string name="string_state_update">"修改"</string>
+    <string name="waiting">"加载中…"</string>
+    <string name="no_disturb_alert">"免打扰开启后，默认会将状态以短信的形式发送，请注意状态设置的正确性"</string>
+    <string name="incall_2_sms_on">"免打扰模式已开启"</string>
+    <string name="everybody">所有人</string>
+    <string name="toast_time_illegal">"时间设置不对"</string>
+    <string name="toast_time_stop_lt_start">"结束时间不能小于开始时间"</string>
+    <string name="toast_time_start_lt_now">"开始时间应该大于现在"</string>
+    <string name="my_status_not_set">"未设置我的状态"</string>
+    <string name="add_contacts_fail_toast">"上传关系失败，请在网络良好的情况下重新启用一次通行证，否则将无法收到相关联系人的状态变化。"</string>
+    <string name="msg_default_status">请将条码置于取景框内扫描</string>
+    <string name="edit_name">修改部门名称</string>
+    <string name="structure_name_cannot_empty">分组名字不能为空</string>
+    <string name="detail_group_name">梁山泊有限责任公司</string>
+    <string name="contact_group_title"><xliff:g>%s</xliff:g>"所在的组"</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="create">创建</string>
+    <string name="publish">发布</string>
+    <string name="new_event">新事件</string>
+    <string name="event_receiver">收件人</string>
+    <string name="event_member">未读成员</string>
+    <string name="draft_title">草稿箱</string>
+    <string name="event_tab_all">全部消息</string>
+    <string name="event_tab_notice">公告</string>
+    <string name="event_tab_approval">审批</string>
+    <string name="event_tab_weekly">周报</string>
+    <string name="event_tab_normal_event">普通事件</string>
+    <string name="event_tab_activity">活动</string>
+    <string name="event_tab_custom">自定义</string>
+    <string name="event_delete_model">\"长按\"删除模板</string>
+    <string name="share_qrcode_text">\"扫一扫\" 下载团队</string>
+    <string name="event_custom">创建模板</string>
+    <string name="event_custom_type">事件类型:</string>
+    <string name="event_custom_member">收件人:</string>
+    <string name="event_custom_title">事件标题 :</string>
+    <string name="event_custom_part1">段落标题1:</string>
+    <string name="event_custom_part2">段落标题2:</string>
+    <string name="event_custom_part3">段落标题3:</string>
+    <string name="edit_person_name">填写个人姓名</string>
+    <string name="edit_person_phone">填写个人电话</string>
+    <string name="event_person_address">完善公司地址信息</string>
+    <string name="event_person_message">个人信息</string>
+    <string name="title_activity_electronic_signature">ElectronicSignatureActivity</string>
+    <string name="title_activity_people_check">PeopleCheckActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_people_updata">PeopleUpdataActivity</string>
+    <string name="title_activity_che_shi_main">CheShiMainActivity</string>
+    <string name="title_activity_getui">GetuiActivity</string>
+
+</resources>

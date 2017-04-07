@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="horizontal" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_sendcodeId_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="序号" />
+
+        <TextView
+            android:id="@+id/tv_barcode_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:layout_weight="3"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="条码内容" />
+    </LinearLayout>
+    
+
+</LinearLayout>

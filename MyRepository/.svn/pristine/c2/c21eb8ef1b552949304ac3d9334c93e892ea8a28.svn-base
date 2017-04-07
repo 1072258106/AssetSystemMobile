@@ -1,0 +1,64 @@
+\\192.168.2.116  (系统测试总部)
+账号：Administrator    密码：123
+Vss:gulc       123
+首码管理：system    kkkkkk
+select * from bas_a1 where bas_a1_20='904'
+
+
+SERVER=WIN-NCCFGJP7NQU\EAM
+DATABASE=EAM55_2013_CHSJY
+USER ID=sa
+PASSWORD=SHOUma123
+
+[SQL Server]
+SERVER=192.168.2.2
+DATABASE=EAM50
+USER ID=eam
+PASSWORD=eam
+
+
+
+
+116上解密控件：http://192.168.2.116/despwd/Default.aspx
+116上加密狗查看工具：http://192.168.2.116/decode/
+
+
+
+[SQL Server]
+SERVER=WIN-NCCFGJP7NQU\EAM
+DATABASE=EAM_2016_xtybzjj
+USER ID=sa
+PASSWORD=SHOUma123
+
+select * from BAS_A1 where BAS_A1_20='944' 
+update BAS_A1 set BAS_A1_50='59dedfe3-d9ce-4ab2-a3ce-cd4155bfc5d3' where BAS_A1_30='944002'
+
+
+http://192.168.2.116/wms_2016_jlzz/（京兰项目网站）
+mstsc(远程访问-运行里边输入)
+
+
+
+一.博彦
+SQL语句考察
+（1）建表TEST，包含3个字段A1 整形， A2 时间形，A3 字符形（20），（2）分别写出2条能成功插入数据的语句和3条不能成功插入的语句（3）找出TEST表中A3字段与TEST01表中的B2字段相同的记录 1. IF NOT EXISTS(select * from sysobjects where name='TEST') create table TEST ( A1 int, A2 datetime, A3 char(20) ) GO 2.
+
+insert into TEST values(1,'2008-5-6','test') insert into TEST values(2,'2008-5-6','test1')
+
+insert into TEST values(1,'2008-5-6') insert into TEST values(1,'sdfd','test') insert into TEST values(1,2008-5-6,test)
+
+3. select * from TEST,TEST01 where TEST.A3=TEST01.B2
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+

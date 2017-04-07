@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout_up"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"            
+            android:orientation="horizontal"
+            android:paddingLeft="4dp"  
+            android:layout_marginRight="1dp"          
+            android:background="#ffffff" >
+			<CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"                
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+            
+            <TextView
+                android:id="@+id/tv_goodsNumbers"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:textColor="#ff000000"
+                android:textSize="16.0sp"
+                android:typeface="monospace" />
+
+        </LinearLayout>
+        <TextView 
+            android:id="@+id/tv_clientName"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"            
+            android:gravity="center"
+            android:layout_marginRight="1dp"
+            android:text="客户名称"
+            android:padding="5dp"
+            android:background="#ffffff"/>
+        <TextView 
+            android:id="@+id/tv_saveName"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"            
+            android:gravity="center"
+            android:layout_marginRight="1dp"
+            android:text="存货名称"
+            android:padding="5dp"
+            android:background="#ffffff"/>
+        <TextView 
+            android:id="@+id/tv_goodslist_tuozhan1"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"            
+            android:gravity="center"
+            android:layout_marginRight="1dp"
+            android:text=""
+            android:padding="5dp"
+            android:background="#ffffff"/>
+        <TextView 
+            android:id="@+id/tv_goodslist_tuozhan2"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"            
+            android:gravity="center"
+            android:text=""
+            android:padding="5dp"
+            android:background="#ffffff"/>
+    </LinearLayout>
+
+</RelativeLayout>

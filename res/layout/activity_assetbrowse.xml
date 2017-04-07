@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <include
+        android:id="@+id/title_bar_normal_mode"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_bar_h"
+        android:layout_gravity="center_vertical"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:id="@+id/keybord_container"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/title_bar_normal_mode"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_base"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="160"
+            android:background="@drawable/tablebar_bg_down"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="基本属性"
+            android:textColor="#7b8483"
+            android:textSize="18.0sp" />
+
+        <Button
+            android:id="@+id/btn_fix"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="160"
+            android:background="@drawable/tablebar_bg"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="定制属性"
+            android:textColor="#7b8483"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/HorizontalScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/table_title"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/gray_five"
+                android:minHeight="30dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:background="@color/skyblue"
+                    android:gravity="center"
+                    android:text="操作类型"
+                    android:textColor="@color/white"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@color/skyblue"
+                    android:gravity="center"
+                    android:text="操作时间"
+                    android:textColor="@color/white"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@color/skyblue"
+                    android:gravity="center"
+                    android:text="变动前部门"
+                    android:textColor="@color/white"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@color/skyblue"
+                    android:gravity="center"
+                    android:text="变动前人员"
+                    android:textColor="@color/white"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@color/skyblue"
+                    android:gravity="center"
+                    android:text="变动后部门"
+                    android:textColor="@color/white"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="@color/skyblue"
+                    android:gravity="center"
+                    android:text="变动后人员"
+                    android:textColor="@color/white"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/scroll_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/table_title"
+                android:cacheColorHint="#00000000"
+                android:divider="#dadada"
+                android:dividerHeight="0.5dip"
+                android:drawSelectorOnTop="false"
+                android:fadingEdgeLength="0.0sp"
+                android:fastScrollEnabled="true" >
+            </ListView>
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/HorizontalScrollView01"
+        android:layout_below="@id/keybord_container"
+        android:layout_marginBottom="10dp" >
+
+        <ListView
+            android:id="@+id/baselist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@null"
+            android:fadingEdge="none"
+            android:listSelector="@null"
+            android:overScrollMode="never" />
+
+        <ListView
+            android:id="@+id/fixlist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@null"
+            android:fadingEdge="none"
+            android:listSelector="@null"
+            android:overScrollMode="never" />
+    </FrameLayout>
+
+</RelativeLayout>

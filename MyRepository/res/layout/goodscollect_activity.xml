@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:id="@+id/rl_goodsCollect_TitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#eE90Ff" >
+
+        <TextView
+            android:id="@+id/tv_goodsCollect_Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/mm_title_back_focused"
+            android:gravity="center"
+            android:paddingRight="14dp"
+            android:text="返回"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="出库单列表"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <cn.shouma.bsytest.CustomHorizontalScrollView
+        android:id="@+id/hs_goodscollect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_goodsCollect_TitleBar" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/il_goodsCollectTitleBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/goodscollect_layout" />
+
+            <ListView
+                android:id="@+id/lv_baseData_List"
+                android:layout_width="750dp"
+                android:layout_height="match_parent"
+                android:focusable="false"
+                android:focusableInTouchMode="false" >
+            </ListView>
+        </LinearLayout>
+    </cn.shouma.bsytest.CustomHorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_editor"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="#11f0Ff"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <Button
+            android:id="@+id/btnShanChu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:text="删除" />
+
+        <Button
+            android:id="@+id/btnShangChuan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:text="上传" />
+    </LinearLayout>
+
+</RelativeLayout>

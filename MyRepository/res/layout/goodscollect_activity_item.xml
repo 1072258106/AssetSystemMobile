@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout_up"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_collect_pName"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="产品名称" />
+
+        <TextView
+            android:id="@+id/tv_collect_pCode"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="产品编号" />
+
+        <TextView
+            android:id="@+id/tv_collect_pGZ"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="产品规格" />
+
+        <TextView
+            android:id="@+id/tv_collect_tuozhan1"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_collect_tuozhan2"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="" />
+    </LinearLayout>
+
+</RelativeLayout>
